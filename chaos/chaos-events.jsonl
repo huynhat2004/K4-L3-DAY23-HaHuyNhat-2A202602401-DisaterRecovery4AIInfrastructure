@@ -1,0 +1,4 @@
+{"ts": 1791516870.788081, "iso": "2026-10-09T03:34:30", "action": "kill", "region": "a", "mode": "netblock", "backend": "bare", "mock": true, "other_region": "b", "other_alive": true, "forced_both": false, "note": "t_outage_start \u2014 moc 0 cua RTO clock"}
+{"ts": 1791516925.374455, "iso": "2026-10-09T03:35:25", "action": "restore", "region": "a", "method": "need_manual_start", "note": "process da bi SIGKILL, chay `make up-bare` lai"}
+{"ts": 1791516942.5737028, "iso": "2026-10-09T03:35:42", "action": "refused", "region": "a", "mode": "netblock", "reason": "region-b khong phan hoi /healthz -> giet region-a nua la double outage, RTO do duoc se vo nghia"}
+{"ts": 1791516974.82177, "iso": "2026-10-09T03:36:14", "action": "kill", "region": "a", "mode": "netblock", "backend": "bare", "mock": true, "other_region": "b", "other_alive": true, "forced_both": false, "note": "t_outage_start \u2014 moc 0 cua RTO clock"}
